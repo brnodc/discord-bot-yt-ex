@@ -1,3 +1,6 @@
 playwright
 discord.py
+<<<<<<< HEAD
 python-dotenv
+=======
+>>>>>>> d6d1eee69771024a7ddbc2724c1bc7aa3c74dbfe

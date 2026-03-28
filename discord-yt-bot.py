@@ -1,4 +1,5 @@
 # discord_bot.py
+<<<<<<< HEAD
 import asyncio
 import datetime
 import os
@@ -9,10 +10,18 @@ from discord.ext import tasks
 from dotenv import load_dotenv
 
 load_dotenv(Path(__file__).resolve().parent / ".env")
+=======
+import discord
+from discord.ext import commands, tasks
+import asyncio
+import datetime
+import os
+>>>>>>> d6d1eee69771024a7ddbc2724c1bc7aa3c74dbfe
 
 # Importa a função do scraper
 from exponent_scraper import get_implied_apy
 
+<<<<<<< HEAD
 # --- Configurações: use variáveis de ambiente ou um ficheiro .env (não versionado) ---
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
 CHANNEL_ID = os.environ.get("CHANNEL_ID", "").strip()
@@ -20,6 +29,12 @@ TARGET_URL = os.environ.get(
     "TARGET_URL",
     "https://www.exponent.finance/farm/fragsol-10Jul25",
 ).strip()
+=======
+# --- Configurações (o usuário precisará preencher BOT_TOKEN e USER_ID) ---
+BOT_TOKEN = "MTM3MDU0MzMzMDY0NzIxMjA2Mg.GpOhug.Cf9RFP8qFVaVSzW4vfDAPjJlOV2o5urwSuroSM"
+CHANNEL_ID = 1371088218929233960
+TARGET_URL = "https://www.exponent.finance/farm/fragsol-10Jul25"
+>>>>>>> d6d1eee69771024a7ddbc2724c1bc7aa3c74dbfe
 CHECK_INTERVAL_SECONDS = 60  # Verificar a cada 60 segundos. Ajuste conforme necessário.
 APY_BUY_THRESHOLD = 17.0
 APY_SELL_THRESHOLD = 19.0
@@ -33,8 +48,13 @@ if not BOT_TOKEN:
     exit()
 
 if not CHANNEL_ID:
+<<<<<<< HEAD
     print("Erro: CHANNEL_ID não foi definido.")
     print("Defina CHANNEL_ID no .env ou nas variáveis de ambiente.")
+=======
+    print("Erro: O ID do usuário do Discord (DISCORD_USER_ID) não foi definido.")
+    print("Por favor, defina a variável de ambiente DISCORD_USER_ID ou edite o script.")
+>>>>>>> d6d1eee69771024a7ddbc2724c1bc7aa3c74dbfe
     exit()
 
 try:
@@ -134,5 +154,9 @@ if __name__ == "__main__":
         print("Iniciando o bot...")
         client.run(BOT_TOKEN)
     else:
+<<<<<<< HEAD
         print("Verifique BOT_TOKEN e CHANNEL_ID (variáveis de ambiente ou .env).")
+=======
+        print("Verifique as configurações de BOT_TOKEN e USER_ID no script.")
+>>>>>>> d6d1eee69771024a7ddbc2724c1bc7aa3c74dbfe
 

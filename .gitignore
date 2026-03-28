@@ -2,6 +2,9 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Segredos — o Git ignora apenas ficheiros não rastreados. Se .env já estiver no
+# histórico, pare de o rastrear com: git rm --cached .env
 .env
-venv/
-env/
+.env.local
+.env.*.local

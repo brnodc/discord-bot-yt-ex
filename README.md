@@ -53,3 +53,5 @@ Para evitar notificações repetidas, ele só envia um novo alerta se o valor do
 ```bash
 git clone <url-do-seu-repositorio>
 cd <nome-do-projeto>
+<img width="1055" height="358" alt="image" src="https://github.com/user-attachments/assets/9c5201f8-52ed-425f-9bab-d5b71f5a304a" />
+

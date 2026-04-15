@@ -49,9 +49,11 @@ Para evitar notificações repetidas, ele só envia um novo alerta se o valor do
 ## Instalação
 
 ### 1. Clonar o repositório
+<img width="1055" height="358" alt="image" src="https://github.com/user-attachments/assets/18c4e533-985b-41ff-8bb9-0b84e4232d84" />
+
 
 ```bash
 git clone <url-do-seu-repositorio>
 cd <nome-do-projeto>
-<img width="1055" height="358" alt="image" src="https://github.com/user-attachments/assets/9c5201f8-52ed-425f-9bab-d5b71f5a304a" />
+
 

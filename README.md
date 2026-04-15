@@ -3,6 +3,7 @@
 Um bot em Python que monitora o **Implied APY** de um produto da Exponent Finance e envia alertas automaticamente para um **canal do Discord** quando o valor atinge determinados níveis de compra ou venda.
 
 Esse projeto é ideal para quem quer acompanhar oportunidades sem precisar ficar atualizando a página manualmente.
+<img width="1055" height="358" alt="image" src="https://github.com/user-attachments/assets/18c4e533-985b-41ff-8bb9-0b84e4232d84" />
 
 ## Funcionalidades
 
@@ -49,7 +50,6 @@ Para evitar notificações repetidas, ele só envia um novo alerta se o valor do
 ## Instalação
 
 ### 1. Clonar o repositório
-<img width="1055" height="358" alt="image" src="https://github.com/user-attachments/assets/18c4e533-985b-41ff-8bb9-0b84e4232d84" />
 
 
 ```bash

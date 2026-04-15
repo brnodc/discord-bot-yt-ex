@@ -31,8 +31,8 @@ TARGET_URL = os.environ.get(
 ).strip()
 =======
 # --- Configurações (o usuário precisará preencher BOT_TOKEN e USER_ID) ---
-BOT_TOKEN = "MTM3MDU0MzMzMDY0NzIxMjA2Mg.GpOhug.Cf9RFP8qFVaVSzW4vfDAPjJlOV2o5urwSuroSM"
-CHANNEL_ID = 1371088218929233960
+BOT_TOKEN = 
+CHANNEL_ID = 
 TARGET_URL = "https://www.exponent.finance/farm/fragsol-10Jul25"
 >>>>>>> d6d1eee69771024a7ddbc2724c1bc7aa3c74dbfe
 CHECK_INTERVAL_SECONDS = 60  # Verificar a cada 60 segundos. Ajuste conforme necessário.

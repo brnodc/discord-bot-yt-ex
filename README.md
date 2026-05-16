@@ -48,13 +48,3 @@ Para evitar notificações repetidas, ele só envia um novo alerta se o valor do
 | `.env.example` | Modelo de variáveis de ambiente |
 | `Procfile` | Comando para deploy em plataformas como Heroku |
 
-## Instalação
-
-### 1. Clonar o repositório
-
-
-```bash
-git clone <url-do-seu-repositorio>
-cd <nome-do-projeto>
-
-

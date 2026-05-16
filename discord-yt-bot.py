@@ -9,7 +9,7 @@ import discord
 from discord.ext import tasks
 from dotenv import load_dotenv
 
-load_dotenv(Path(__file__).resolve().parent / ".env")
+load_dotenv(Path(__file__).resolve().parent / ".env.example")
 =======
 import discord
 from discord.ext import commands, tasks
@@ -22,7 +22,7 @@ import os
 from exponent_scraper import get_implied_apy
 
 <<<<<<< HEAD
-# --- Configurações: use variáveis de ambiente ou um ficheiro .env (não versionado) ---
+# --- Configurações: use variáveis de ambiente ou um ficheiro .env.example (não versionado) ---
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
 CHANNEL_ID = os.environ.get("CHANNEL_ID", "").strip()
 TARGET_URL = os.environ.get(

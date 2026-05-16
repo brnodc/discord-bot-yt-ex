@@ -3,4 +3,4 @@ discord.py
 <<<<<<< HEAD
 python-dotenv
 =======
->>>>>>> 
+
